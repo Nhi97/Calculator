@@ -15,18 +15,18 @@
 
         <EditText
             android:textStyle="bold"
-            android:id="@+id/et"
+            android:id="@+id/edt_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="input number"
             android:inputType="number" />
 
         <TextView
-            android:id="@+id/tv"
+            android:id="@+id/tv_result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/et"
+            android:layout_below="@+id/edt_input"
             android:text=""
             android:textSize="@dimen/text_size"
             android:textStyle="bold" />
@@ -47,7 +47,7 @@
             android:weightSum="5">
 
             <Button
-                android:id="@+id/btn1"
+                android:id="@+id/btnNumber1"
                 android:textStyle="bold"
                 android:text="1"
                 android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
                 android:layout_weight="1" />
 
             <Button
-                android:id="@+id/btn2"
+                android:id="@+id/btnNumber2"
                 android:textStyle="bold"
                 android:text="2"
                 android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
                 android:layout_weight="1" />
 
             <Button
-                android:id="@+id/btn3"
+                android:id="@+id/btnNumber3"
                 android:textStyle="bold"
                 android:text="3"
                 android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
                 android:layout_weight="1" />
 
             <Button
-                android:id="@+id/btnC"
+                android:id="@+id/btnClear"
                 android:textStyle="bold"
                 android:text="C"
                 android:layout_width="wrap_content"
@@ -94,7 +94,7 @@
             android:weightSum="5">
 
             <Button
-                android:id="@+id/btn4"
+                android:id="@+id/btnNumber4"
                 android:textStyle="bold"
                 android:text="4"
                 android:layout_width="wrap_content"
@@ -102,7 +102,7 @@
                 android:layout_weight="1" />
 
             <Button
-                android:id="@+id/btn5"
+                android:id="@+id/btnNumber5"
                 android:textStyle="bold"
                 android:text="5"
                 android:layout_width="wrap_content"
@@ -110,7 +110,7 @@
                 android:layout_weight="1" />
 
             <Button
-                android:id="@+id/btn6"
+                android:id="@+id/btnNumber6"
                 android:textStyle="bold"
                 android:text="6"
                 android:layout_width="wrap_content"
@@ -126,7 +126,7 @@
                 android:layout_weight="1" />
 
             <Button
-                android:id="@+id/btnAC"
+                android:id="@+id/btnClearAll"
                 android:textStyle="bold"
                 android:text="AC"
                 android:layout_width="wrap_content"
@@ -156,7 +156,7 @@
                 android:weightSum="4">
 
                 <Button
-                    android:id="@+id/btn7"
+                    android:id="@+id/btnNumber7"
                     android:textStyle="bold"
                     android:text="7"
                     android:layout_width="wrap_content"
@@ -164,7 +164,7 @@
                     android:layout_weight="1" />
 
                 <Button
-                    android:id="@+id/btn8"
+                    android:id="@+id/btnNumber8"
                     android:textStyle="bold"
                     android:text="8"
                     android:layout_width="wrap_content"
@@ -172,7 +172,7 @@
                     android:layout_weight="1" />
 
                 <Button
-                    android:id="@+id/btn9"
+                    android:id="@+id/btnNumber9"
                     android:textStyle="bold"
                     android:text="9"
                     android:layout_width="wrap_content"
@@ -195,7 +195,7 @@
                 android:weightSum="2">
 
                 <Button
-                    android:id="@+id/btn0"
+                    android:id="@+id/btnNumber0"
                     android:textStyle="bold"
                     android:text="0"
                     android:layout_weight="1"
@@ -209,7 +209,7 @@
                   >
 
                 <Button
-                    android:id="@+id/btnCham"
+                    android:id="@+id/btnPoint"
                     android:textStyle="bold"
                     android:text="."
                     android:layout_weight="1"
@@ -231,7 +231,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/btnBang"
+            android:id="@+id/btnResult"
             android:textStyle="bold"
             android:text="="
             android:layout_width="match_parent"
